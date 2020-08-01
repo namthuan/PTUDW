@@ -78,3 +78,41 @@ color: #B8B8B8;
   font-size: small;
   text-size-adjust: 100%;
 }
+
+.title-watch-series-5 {
+  margin: 100px auto 58px;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  padding: 0px;
+  width: 653px;
+  height: 143px;
+  text-align: center;
+  font-style: normal;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.iPrice {
+  font-weight: bold;
+  font-size: larger;
+}
+.watch-series-5-img {
+  width: 852px;
+  height: 580px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.watch-series-5-content {
+  width: 386px;
+  height: 392px;
+  text-align: center;
+  float: right;
+  margin: 100px;
+}
+.buyBtn {
+  border-radius: 40px;
+  border: 2px solid #3385ff;
+  background-color: #3385ff;
+  color: white;
+}
