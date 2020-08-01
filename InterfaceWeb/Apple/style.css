@@ -44,5 +44,37 @@ color: #B8B8B8;
 }
 
 .watchNav {
-  background-color: lightgrey;
+  height: 120px;
+  font-weight:normal;
+  -webkit-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust:100%;
+
+}
+
+.watchNav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.watchNav ul li {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  padding: 0px;
+  margin: 0 20px 0 20px;
+  margin-block-end: 3px;
+  margin-block-start: 0px;
+ 
+}
+.caption {
+  display: block;
+  text-align: center;
+  font-size: small;
+  text-size-adjust: 100%;
 }
