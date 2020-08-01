@@ -132,7 +132,7 @@ color: #B8B8B8;
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-areas: 
-  "images info";
+  "info images";
 }
 
 .watch-series-3-img {
@@ -147,6 +147,27 @@ color: #B8B8B8;
   text-align: center;
   margin: 100px;
   grid-area: info;
+}
+
+.nike-and-hermes {
+  height: 900px;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "nike hermes";
+}
+
+.watch-nike { 
+  margin-right: 20px;
+  grid-area: nike;
+  background-color: rgb(120, 213, 203);
+}
+
+.watch-hermes {
+  margin-left: 20px;
+  grid-area: hermes;
+  background-color: rgb(253, 248, 242);
 }
 
 .iPrice {
