@@ -219,9 +219,33 @@ color: #B8B8B8;
   grid-area: images;
 }
 
+.iPhone-Watch {
+  height: 504px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "images info";
+  background-color: rgb(250, 250, 250);
+}
+
+.iPhone-Watch-img {
+  grid-area: images;
+}
+
+.iPhone-Watch-content {
+  grid-area: info;
+  width: 442px;
+  height: 135px;
+  justify-self: center;
+  text-align: center;
+  margin-top: 186px;
+  padding: 10px;
+}
+
 .bands {
   height: 500px;
-  margin: 30px;
+  margin: 50px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: 
@@ -242,6 +266,29 @@ color: #B8B8B8;
   justify-self: center;
   text-align: center;
   margin-top: 177px;
+}
+
+.gift-card {
+  height: 346px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-areas: 
+  "info images";
+  background-color: rgb(250, 250, 250);
+}
+
+.gift-card-img {
+  grid-area: images;
+}
+
+.gift-card-content {
+  width: 260px;
+  height: 137px;
+  grid-area: info;
+  margin-top: 105px;
+  justify-self: center;
+  text-align: center;
 }
 
 .shopping {
