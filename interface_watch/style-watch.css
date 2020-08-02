@@ -13,7 +13,7 @@
 .appleNav {
   width: 100%;
   margin: 0 auto;
-  justify-content: ;
+  justify-content: center;
   grid-area: menuBar;
 }
 
@@ -100,7 +100,6 @@ color: #B8B8B8;
   text-align: center;
   justify-self: center;
 }
-
 
 .watch-series-5 {
   margin: 30px;
