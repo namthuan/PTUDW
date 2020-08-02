@@ -13,6 +13,7 @@
 .appleNav {
   width: 100%;
   margin: 0 auto;
+  justify-content: ;
   grid-area: menuBar;
 }
 
@@ -93,18 +94,18 @@ color: #B8B8B8;
 
 .title-watch {
   width: 100%;
-  height: 200px;
-  margin: auto;
-  padding: 40px;
+  height: 100px;
+  margin: 30px;
+  padding: 0px;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  justify-self: center;
 }
+
 
 .watch-series-5 {
   margin: 30px;
   padding: 10px;
-  height: 750px;
+  height: 600px;
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-areas: 
@@ -128,7 +129,7 @@ color: #B8B8B8;
 .watch-series-3 {
   margin: 30px;
   padding: 10px;
-  height: 750px;
+  height: 450px;
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-areas: 
@@ -138,7 +139,6 @@ color: #B8B8B8;
 .watch-series-3-img {
   width: 757px;
   height: 396px;
-  margin: 0;
   padding: 0;
   grid-area: images;
 }
@@ -159,15 +159,95 @@ color: #B8B8B8;
 }
 
 .watch-nike { 
-  margin-right: 20px;
+  margin: 30px;
   grid-area: nike;
+  display: grid;
+  grid-template-rows: 25% 75%;
+  width: 675px;
+  height: 840px;
+  grid-template-areas: 
+  "info"
+  "images";
   background-color: rgb(120, 213, 203);
 }
 
+.watch-nike-content {
+  justify-self: center;
+  text-align: center;
+  width: 405px;
+  height: 200px;
+  margin: 60px;
+  padding: 15px;
+  grid-area: info;
+}
+
+.watch-nike-img {
+  justify-self: center;
+  width: 675px;
+  height: 589px;
+  margin: 40px 0 0 0;
+  padding: 0;
+  grid-area: images;
+}
+
 .watch-hermes {
-  margin-left: 20px;
+  margin: 30px;
   grid-area: hermes;
+  display: grid;
+  grid-template-rows: 25% 75%;
+  width: 675px;
+  height: 840px;
+  grid-template-areas: 
+  "info"
+  "images";
   background-color: rgb(253, 248, 242);
+}
+
+.watch-hermes-content {
+  justify-self: center;
+  text-align: center;
+  margin: 60px;
+  padding: 15px;
+  grid-area: info;
+}
+
+.watch-hermes-img {
+  justify-self: center;
+  width: 675px;
+  height: 589px;
+  margin: 40px 0 0 0;
+  padding: 0;
+  grid-area: images;
+}
+
+.bands {
+  height: 500px;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "images info";
+  background-color: rgb(250, 250, 250);
+}
+
+.bands-img {
+  width: 550px;
+  height: 500px;
+  grid-area: images;
+}
+
+.bands-content {
+  grid-area: info;
+  width: 491px;
+  height: 146px;
+  justify-self: center;
+  text-align: center;
+  margin-top: 177px;
+}
+
+.shopping {
+  font-size: 21px;
+  color: rgb(0, 102, 204);
 }
 
 .iPrice {
@@ -180,5 +260,17 @@ color: #B8B8B8;
   border: 2px solid #3385ff;
   background-color: #3385ff;
   color: white;
+  width: 70px;
+  height: 50px;
 }
+
+.buyBtnBlack {
+  border-radius: 40px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  width: 70px;
+  height: 50px;
+}
+
 
