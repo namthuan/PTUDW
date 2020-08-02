@@ -1,0 +1,107 @@
+.button {
+    display: inline-block;
+    border-radius: 40px;
+    background-color: #f7f7f7;
+    border: 1px solid;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 80px auto;
+  }
+  
+  .button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0s;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .button a:after {
+    content: '\00bb';
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: -12px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button:hover a:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button:hover {
+    padding-right: 25px;
+    background-color: black;
+    color: white;
+  }
+
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+ /* site-header */
+
+.site-header img {
+      width: 700px;
+      height: auto;
+  }
+
+h1.site-header {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+h2.site-header {
+    font-size: 40px;
+    margin: 30px;
+}
+
+.site-header button {
+    margin : 10px;
+    background-color: white;
+}
+
+
+/* site-section */
+
+.site-section {
+    margin-top: 160px;
+}
+
+.site-section a.non_button {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.site-section .d-flex {
+    margin: 70px auto;
+}
+
+.item {
+    background-color: #f7f7f7;
+}
