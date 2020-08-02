@@ -9,6 +9,8 @@ a {
 li {
     list-style-type: none;
 }
+
+/* NavApple */
 nav.header{
 
     height: 44px;
@@ -46,6 +48,8 @@ nav.header{
   text-decoration: none;
   }
 
+
+/* SectionMac */
 .sectionMac {
   width: 100%;
   height: 120px;
@@ -101,6 +105,8 @@ nav.header{
    color: blue;
    text-decoration: none;
  }
+
+ /* Banner */
  .banner{
    width: 100%;
    height: 40px;
@@ -115,6 +121,7 @@ nav.header{
    line-height: 40px;
  }
 
+ /* Info Mac */
  .macbook-13inch, .macbook-16inch, .macbook-air{
     margin-top:  137px;
     margin-left: auto;
@@ -208,3 +215,50 @@ h2 {
    display: inline;
    color: #06c;
  }
+
+ /* Compare */
+.compare {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.boxmain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  min-height: 800px;
+  background-color: #2be7f5;
+}
+
+.boxmain h2 {
+  min-height: 150px;
+  background-color: #a8551e;
+}
+
+.compare-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 300px;
+  background-color: aquamarine;
+}
+.compare-row .macAir{
+  min-height: 150px;
+  width: 250px;
+  background-color: chocolate;
+}
+.compare-row .mac13 {
+  min-height: 150px;
+  width: 250px;
+  background-color: #999999;
+}
+.compare-row .mac16 {
+  min-height: 150px;
+  width: 250px;
+  background-color: red;
+}
+.link-change {
+  min-width: 250px;
+  background-color: #000000;
+}
