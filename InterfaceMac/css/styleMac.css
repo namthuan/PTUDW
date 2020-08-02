@@ -2,7 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
-nav {
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+nav.header{
 
     height: 44px;
     width: 100%;
@@ -15,7 +22,7 @@ nav {
     text-size-adjust:100%;
   }
   
-  nav ul {
+  nav.header ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,17 +31,47 @@ nav {
     list-style-type: none;
   }
   
-  nav a {
+  nav.header a {
     display: inline-block;
     height: 44px;
     line-height: 44px;
     color: white;
     font-size: 15px;
     font-weight: lighter;
-    text-decoration: none;
     transition: 0.3s;
   }
   
-  nav a:hover {
+  nav.header a:hover {
   color: #B8B8B8;
+  text-decoration: none;
   }
+
+ #main nav ul li a img {
+   width: 70px;
+   height: 50px;
+ }
+
+ #main nav ul {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+ }
+
+ #main nav ul li{
+   display: block;
+   /* background-color: aqua; */
+   margin: 2px;
+   text-align: center;
+ } 
+
+ #main nav ul li a{
+   padding: 10px;
+   display: block;
+   /* background-color: brown; */
+   align-items: center;
+ }
+
+ #main nav ul li a span{
+   clear: both;
+ }
