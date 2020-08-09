@@ -8,6 +8,7 @@
     "menuBar"
     "title"
     "main-content";
+    background-color: rgb(255,255,255);
 }
 
 .appleNav {
@@ -64,10 +65,37 @@ nav a:hover {
     grid-area: main-content;
 }
 
-.shopping {
+.introduction {
+    height: 480px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "info images";
+    background-color: rgb(242,242,242);
+}
+
+.introduction-info {
+    grid-area: info;
+    justify-content: center;
+    width: 224px;
+    height: 156px;
+    margin-top: 162px;
+    margin-left: 270px;
+
+
+}
+
+.introduction-img {
+    grid-area: images;
+
+}
+
+
+
+.series-3-gps {
+    margin: 40px 100px 40px 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-left: 150px;
 }
 
 .card {
@@ -80,16 +108,23 @@ nav a:hover {
     word-wrap: break-word;
     text-align: center;
     border: none;
+    position: relative;
 }
 
 .card-text {
     color: black;
 }
 
-.introduction {
-    width: 40%;
-    height: 180px;
-    margin: 50px auto auto auto;
-    text-align: center;
-    justify-content: center;
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nike {
+    margin: 40px 100px 40px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
 }
