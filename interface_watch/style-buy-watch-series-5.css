@@ -84,6 +84,23 @@ nav a:hover {
 
 .card-text {
     color: black;
+    font-size: 14px;
+}
+
+.card-text a:link {
+    color: black;
+}
+
+.card-text a:visited {
+    color: black;
+}
+
+.card-text a:hover {
+    color: #0070c9;
+}
+
+.card-text a:link {
+    text-decoration: none;
 }
 
 .introduction {

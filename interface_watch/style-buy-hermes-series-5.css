@@ -7,8 +7,8 @@
     grid-template-areas: 
     "menuBar"
     "title"
+    "intro"
     "main-content";
-    background-color: rgb(255,255,255);
 }
 
 .appleNav {
@@ -65,35 +65,11 @@ nav a:hover {
     grid-area: main-content;
 }
 
-.introduction {
-    height: 480px;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-areas: "info images";
-    background-color: rgb(242,242,242);
-}
-
-.introduction-info {
-    grid-area: info;
-    justify-content: center;
-    width: 224px;
-    height: 156px;
-    margin-top: 162px;
-    margin-left: 270px;
-
-
-}
-
-.introduction-img {
-    grid-area: images;
-
-}
-
-.series-3-gps {
-    margin: 40px 100px 40px 100px;
+.shopping {
     display: flex;
     flex-wrap: wrap;
     padding-left: 150px;
+    padding-right: 150px;
 }
 
 .card {
@@ -106,7 +82,6 @@ nav a:hover {
     word-wrap: break-word;
     text-align: center;
     border: none;
-    position: relative;
 }
 
 .card-text {
@@ -130,16 +105,23 @@ nav a:hover {
     text-decoration: none;
 }
 
-span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.introduction {
+    grid-area: intro;
+    height: 383px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "img1 img2";
+    background-color: rgb(255, 244, 240);
+    display: flex;
+    justify-content: center;
 }
 
-.nike {
-    margin: 40px 100px 40px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 150px;
+.introduction-img-1 {
+    grid-area: img1;
+    padding: 159px 20px 159px 20px;
+}
+
+.introduction-img-2 {
+    grid-area: img2;
+    padding-left: 200px;
 }
