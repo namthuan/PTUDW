@@ -1,0 +1,163 @@
+.container-fluid {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "menuBar"
+    "title"
+    "main-content";
+}
+
+.appleNav {
+    grid-area: menuBar;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav {
+    height: 44px;
+    background: #323232;
+    font-weight:normal;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #B8B8B8;
+}
+
+.title {
+    grid-area: title;
+    height: 40px;
+    font-size: 22px;
+    padding-left: 300px;
+    border-bottom: lightgray solid;
+    border-width: 1px;
+}
+
+.main-content {
+    grid-area: main-content;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "images info";
+}
+ 
+.product-img {
+    grid-area: images;
+    width: 551px;
+    height: 456px;
+    /* overflow: hidden;
+    position: relative;
+    padding: 10px; */
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 600px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 450px;
+  height: 450px;
+  margin-left: 75px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  color: gray;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+  background-color: rgb(242, 242, 242);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightgray;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.product-info {
+    grid-area: info;
+} 
