@@ -66,35 +66,30 @@ nav a:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: "images info";
+    margin: 50px;
 }
  
 .product-img {
     grid-area: images;
-    width: 551px;
-    height: 456px;
-    /* overflow: hidden;
-    position: relative;
-    padding: 10px; */
+    width: 700px;
+    height: 620px;
 }
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: auto;
-  width: 600px;
+  width: 700px;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
-  width: 450px;
-  height: 450px;
-  margin-left: 75px;
+  width: 550px;
+  height: 550px;
+  margin: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -112,18 +107,15 @@ nav a:hover {
   background-color: rgb(242, 242, 242);
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 50%;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: lightgray;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 10px;
@@ -139,12 +131,13 @@ nav a:hover {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards; 
   animation-name: fade;
   animation-duration: 1.5s;
+  animation-fill-mode: forwards; 
 }
 
 @-webkit-keyframes fade {
@@ -157,7 +150,20 @@ nav a:hover {
   to {opacity: 1}
 }
 
-
 .product-info {
     grid-area: info;
 } 
+
+.band-colors > ul {
+    display: flex;
+    align-items: flex-end;
+    justify-items: left;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.band-colors > ul > li{
+    list-style-type: none;  
+}
+
