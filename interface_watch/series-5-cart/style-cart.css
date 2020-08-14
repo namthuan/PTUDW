@@ -64,7 +64,7 @@ nav a:hover {
     grid-area: main-content;
     height: 900px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     grid-template-areas: "images info";
     margin: 50px;
 }
@@ -151,19 +151,92 @@ nav a:hover {
 }
 
 .product-info {
-    grid-area: info;
+  grid-area: info;
+  padding: 30px 90px 30px 30px;
 } 
 
-.band-colors > ul {
-    display: flex;
-    align-items: flex-end;
-    justify-items: left;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.band-colors {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.band-colors > ul > li{
-    list-style-type: none;  
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  padding: 1px;
+}
+
+input.size-button-input[type="radio"] {
+  display: none;
+}
+
+label.size-button-label {
+  font-family: 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.23543;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  color: #333;
+
+  width: 450px;
+  min-height: 4.88235rem;
+  padding: .70588rem .88235rem;
+  margin-top: .82353rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-spacing: 0;
+
+  background-color: hsla(0, 0%, 100%, .8);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.size-button-label .size-text {
+  font-weight: bold;
+}
+
+.size-button-label .desc {
+  margin-top: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.33341;
+  font-weight: 400;
+  letter-spacing: -.01em;
+}
+
+input.size-button-input:checked+label.size-button-label {
+  border-color: #0070c9;
+  border-width: .11765rem;
+}
+
+label.size-button-label:hover {
+  border-color: #888;
+}
+
+label.size-button-label:focus {
+  box-shadow: 0 0 0 0.17647rem rgba(131, 192, 253, .5);
+  outline: none;
+}
+
+.addToBag {
+  width: 450px;
+  height: 40px;
+  font-size: larger;
+  border: solid 1px #0070c9;
+  background-color: #0070c9;
+  background: linear-gradient(#42a1ec,#0070c9);
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
