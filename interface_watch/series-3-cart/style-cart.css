@@ -155,7 +155,7 @@ nav a:hover {
   padding: 30px 90px 30px 30px;
 } 
 
-.band-colors {
+/* .band-colors {
   display: flex;
   flex-wrap: wrap;
 }
@@ -166,7 +166,7 @@ nav a:hover {
   flex-direction: column;
   margin: 10px;
   padding: 1px;
-}
+} */
 
 input.size-button-input[type="radio"] {
   display: none;
