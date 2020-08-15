@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style-cart.css">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <style>
+            .mySlides {display:none}
+            .w3-left, .w3-right, .w3-badge {cursor:pointer}
+            .w3-badge {height:13px;width:13px;padding:0}
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+        <title>Apple Watch</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <nav> 
+                <div class="appleNav">
+                  <ul>
+                      <li>
+                        <a href="#"><img src="../images/apple-xxl.png" height="20"></a>
+                      </li>
+                      <li><a href="#">Mac</a></li>
+                      <li><a href="#">iPad</a></li>
+                      <li><a href="#">iPhone</a></li>
+                      <li><a href="#">Watch</a></li>
+                      <li>
+                        <a href="#"><img src="../images/search-3-xxl.png" height="20"></a>
+                      </li>
+                  </ul>
+                </div>
+            </nav>
+            
+            <div class="title">
+                <p><b>Apple Watch Nike Series 5</b></p>
+            </div>
+
+            <div class="main-content">
+                <div class="product-img">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="images/watch-4-1.jpg" width="550px" height="550px">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <img src="images/watch-4-2.jpg" width="550px" height="550px">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <img src="images/watch-4-3.jpg" width="550px" height="550px">
+                        </div>
+                    
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                </div>
+                <div class="product-info">
+                    <p style="line-height: 1;">
+                        <span style="font-weight: bolder; font-size: larger;">Apple Watch Nike</span>
+                        <h2>Space Gray Aluminum Case with Nike Sport Band</h2>
+                        <span style="font-size: x-large;">From $399</span><br><br><br>
+                    </p>
+                    <p style="font-size: x-large;">Band Colors</p><hr>
+                    <div class="band-colors">
+                        <div class="colors"><input type="image" src="images/black-lime-blast.jpg"></div>
+                        <div class="colors"><input type="image" src="images/black-pink-blast.jpg"></div>
+                        <div class="colors"><input type="image" src="images/desert-sand-black.jpg"></div>
+                        <div class="colors"><input type="image" src="images/midnight-turquoise-aurora-green.jpg"></div>
+                        <div class="colors"><input type="image" src="images/pride.jpg"></div>
+                        <div class="colors"><input type="image" src="images/pure-platinum-black.jpg"></div>
+                        <div class="colors"><input type="image" src="images/royal-pulse-black.jpg"></div>  
+                        <div class="colors"><input type="image" src="images/anthracite-black.jpg"></div> 
+                    </div><br><hr>
+
+                    <p style="font-size: x-large;">Case size</p>
+                    <div class="case-size">
+                        <input type="radio" name="size" id="size1" class="size-button-input">
+                        <label for="size1" class="size-button-label">
+                            <div class="size-text">40mm
+                            <div class="desc">Case fits 130-200mm wrists.</div>
+                            </div>
+                            <div class="price-text">From $399</div>
+                        </label>
+
+                        <input type="radio" name="size" id="size2" class="size-button-input">
+                        <label for="size2" class="size-button-label">
+                            <div class="size-text">44mm
+                            <div class="desc">Case fits 140-220mm wrists.</div>
+                            </div>
+                            <div class="price-text">From $429</div>
+                        </label>
+                    </div><br>
+                    
+                    <p style="font-size: x-large;">Connectivity</p>
+                    <div class="connectivity">
+                        <input type="radio" name="size" id="size3" class="size-button-input">
+                        <label for="size3" class="size-button-label">
+                            <div class="size-text">GPS</div>
+                            <div class="price-text">$399.00</div>
+                        </label>
+
+                        <input type="radio" name="size" id="size4" class="size-button-input">
+                        <label for="size4" class="size-button-label">
+                            <div class="size-text">GPS + Cellular</div>
+                            <div class="price-text">$499.00</div>
+                        </label>
+                    </div><br><br>
+
+                    <input type="button" class="addToBag" value="Add to Bag">
+                </div>
+            </div>
+           
+        </div>
+        <script src="script.js"></script>
+    </body>
