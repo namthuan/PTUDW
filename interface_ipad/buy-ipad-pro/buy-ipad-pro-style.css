@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline;
+    padding: 30px;
+}
+
+.name_site {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Product cart */
+.product_cart {
+    margin-left: 180px;
+    margin-right: 150px;
+}
+
+.cart {
+    margin: 0px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.cart .row {
+    margin: 0px;
+}
+
+.name_cart {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.box {
+    border: 1px solid #c0bfc1;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.left {
+    margin-left: -15px;
+}
+
+.right {
+    margin-right: -15px;
+}
+
+.addToBag {
+    width: 450px;
+    height: 40px;
+    font-size: larger;
+    border: solid 1px #0070c9;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+  
+  
