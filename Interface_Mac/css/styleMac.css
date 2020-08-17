@@ -270,6 +270,7 @@ h2 {
   justify-content: center;
   justify-content: space-around;
   min-height: 100%;
+  padding-bottom: 20px;
 }
 .compare-row .macComp{
   
@@ -301,3 +302,52 @@ h2 {
 .compare-row .macComp .more-text {
   font-size: 14px;
 }
+
+.macOS {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 1440px;
+}
+.macOS h2 {
+  padding-top: 114px;
+  margin-bottom: 60px;
+  font-size: 64px;
+  text-align: center;
+}
+.macOS .info_macOS {
+  background-image: url(/Interface_Mac/images/background/catalina.jpg);
+  background-repeat: no-repeat;
+  background-size: 2560px 600px;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 600px;
+}
+
+.macOS .info_macOS .bloctext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+.macOS .info_macOS h3 {
+  font-weight: 600;
+  font-size: 48px;
+}
+.macOS .info_macOS .os {
+  font-size: 30px;
+}
+.macOS .info_macOS p{
+  font-size: 20px;
+}
+
+.macOS .info_macOS .bloctext .more-text{
+  color: #fff !important;
+}
+.macOS .info_macOS .bloctext .icon-after-more{
+  color: #fff !important;
+}
+
