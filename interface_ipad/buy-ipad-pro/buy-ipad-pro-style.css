@@ -2,27 +2,72 @@
     box-sizing: border-box;
 }
 
-ul {
+/* Site header */
+
+/* Apple navbar */
+.navItems {
+    grid-area: menuBar;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.appleNav nav {
+    height: 44px;
+    background: #323232;
+    font-weight:normal;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
+
+.appleNav nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
     list-style-type: none;
-    padding-right: 30px;
 }
-  
-li {
-    display: inline;
-    padding: 30px;
+
+.appleNav nav a {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s;
 }
+
+.appleNav nav a:hover {
+    color: #B8B8B8;
+}
+
+/*Product navbar*/
 
 .name_site {
     font-weight: bold;
     font-size: 20px;
-    padding-left: 200px;
+}
+
+.navbar {
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.product_nav {
+    border-bottom: 1px solid #c0bfc1;
+    font-size: 13px;
 }
 
 
 /* Product cart */
 .product_cart {
-    margin-left: 180px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .cart {
@@ -40,15 +85,20 @@ li {
     font-size: 40px;
 }
 
-.bold {
-    font-weight: bold;
-}
 
-
-.box {
+.box-big {
     border: 1px solid #c0bfc1;
     border-radius: 4px;
-    padding: 20px;
+    padding: 15px;
+   
+}
+
+.box-small {
+    border: 1px solid #c0bfc1;
+    border-radius: 4px;
+    height: 100px;
+    line-height: 90%;
+    padding-top: 25px;
 }
 
 .left {
@@ -71,7 +121,20 @@ li {
     text-align: center;
     cursor: pointer;
 }
-  
+
+.bold {
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+
 /* Apple pencil */
 
 .accessories {

@@ -14,35 +14,58 @@
         </style>
     </head>
     <body>
-        <div class="site-header mt-5">
-            <div class="row">
-               <div class="name_site col-md-6">
-                   <p>iPad Pro</p>
-               </div>
-               <div class="details_product col-md-6">
+        <div class="site_header">
+            <div class="appleNav">
+                <nav> 
+                    <div class="navItems">
                     <ul>
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Why iPad Pro</a></li>
-                        <li><a href="#">Tech Specs</a></li>
+                        <li>
+                            <a href="#"><img src="images/apple-xxl.png" height="20"></a>
+                        </li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li>
+                            <a href="#"><img src="images/search-3-xxl.png" height="20"></a>
+                        </li>
                     </ul>
-               </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="product_nav">
+                <nav class="navbar navbar-light">
+                    <a class="name_site navbar-brand justify-content-start" href="#">iPad Pro</a>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Why iPad Pro</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Tech Specs</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
 
         <div class="site-section mt-5">
             <div class="product_cart row">
-                <div class="image_product col-xl-6 text-center">
+                <div class="image_product col-md-6 text-center">
                     <img class="img-fluid" src="images/ipad-pro.png">
                 </div>
-                <div class="cart col-xl-6">
+                <div class="cart col-md-6">
                     <p class="name_cart">Buy iPad Pro</p>
                     <div class="model">
                         <p class="bold">Model</p>
-                        <div class="box row mt-3">
+                        <div class="box-big row mt-3">
                             <div class="bold col-md-6">11-inch display</div>
                             <div class="demo col-md-6 text-right">From $66.58/mo.* or $799</div>
                         </div>
-                        <div class="box row mt-3">
+                        <div class="box-big row mt-3">
                             <div class="bold col-md-6">12.9-inch display</div>
                             <div class="col-md-6 text-right">From $83.25/mo.* or $999</div>
                         </div>
@@ -50,16 +73,16 @@
                     <div class="finish mt-3">
                         <p class="bold">Finish</p>
                         <div class="row">
-                            <div class="col-md-6 text-center">
-                                <div class="left box">
+                            <div class="col-sm-6 text-center">
+                                <div class="left box-small">
                                     <img src="images/space-gray.png">
-                                    <p>Space grey</p>
+                                    <p class="desc">Space grey</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 text-center">
-                                <div class="right box">
+                            <div class="col-sm-6 text-center">
+                                <div class="right box-small">
                                     <img src="images/silver.png">
-                                    <p>Silver</p>
+                                    <p class="desc">Silver</p>
                                 </div>
                             </div>
                         </div>
@@ -68,29 +91,29 @@
                         <p class="bold">Storage</p>
                         <div class="row">
                             <div class="col-md-6 text-center">
-                                <div class="left box">
-                                    <p class="price">128<span class="byte">GB</span></p>
-                                    <p class="price">From $83.25/mo.*<br>or $999</p>
+                                <div class="left box-small">
+                                    <p><span class="bold"><span class="price">128</span>GB</span><br>
+                                    <span class="desc">From $83.25/mo.* <br> or $999</span></p>
                                 </div>
                             </div>
                             <div class="col-md-6 text-center">
-                                <div class="right box">
-                                    <p class="price">256<span class="byte">GB</span></p>
-                                    <p class="price">From $91.58/mo.*<br>or $1099</p>
+                                <div class="right box-small">
+                                    <p><span class="bold"><span class="price">256</span>GB</span><br>
+                                    <span class="desc">From $91.58/mo.* <br> or $1099</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-6 text-center">
-                                <div class="left box">
-                                    <p class="price">512<span class="byte">GB</span></p>
-                                    <p class="price">From $108.25/mo.*<br>or $1299</p>
+                                <div class="left box-small">
+                                    <p><span class="bold"><span class="price">512</span>GB</span><br>
+                                        <span class="desc">From $108.258/mo.* <br> or $1299</span></p>
                                 </div>
                             </div>
                             <div class="col-md-6 text-center">
-                                <div class="right box">
-                                    <p class="price">1<span class="byte">TB</span></p>
-                                    <p class="price">From $124.91/mo.*<br>or $1499</p>
+                                <div class="right box-small">
+                                    <p><span class="bold"><span class="price">1</span>TB</span><br>
+                                    <span class="desc">From $124.91/mo.* <br> or $1499</span></p>
                                 </div>
                             </div>
                         </div>
@@ -99,15 +122,15 @@
                         <p class="bold">Connectivity</p>
                         <div class="row">
                             <div class="col-md-6 text-center">
-                                <div class="left box">
-                                    <p class="bold">Wi-Fi</p>
-                                    <p>$83.25/mo.* or $999.00</p>
+                                <div class="left box-small">
+                                    <p><span class="bold">Wi-Fi</span><br>
+                                    <span class="desc">From $66.58/mo.*<br>or $799</span></p>
                                 </div>
                             </div>
                             <div class="col-md-6 text-center">
-                                <div class="right box">
-                                    <p>Wi-Fi + Cellular</p>
-                                    <p>95.75/mo.* or $1,149.00</p>
+                                <div class="right box-small">
+                                    <p><span class="bold">Wi-Fi + Cellular</span><br>
+                                    <span class="desc">From $79.08/mo.*<br>or $949</span></p>
                                 </div>
                             </div>
                         </div>
