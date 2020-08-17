@@ -251,39 +251,53 @@ h2 {
 .boxmain {
   margin-left: auto;
   margin-right: auto;
-  width: 1080px;
+  margin-top: 80px;
+  width: 1440px;
   min-height: 800px;
-  background-color: #2be7f5;
+  background-color: #f2f2f2;
 }
 
 .boxmain h2 {
-  min-height: 150px;
-  background-color: #a8551e;
+  padding-top: 114px;
+  margin-bottom: 60px;
+  font-size: 64px;
+  text-align: center;
 }
 
 .compare-row{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 300px;
-  background-color: aquamarine;
+  justify-content: space-around;
+  min-height: 100%;
 }
-.compare-row .macAir{
-  min-height: 150px;
-  width: 250px;
-  background-color: chocolate;
+.compare-row .macComp{
+  
+  max-width: ;: 33,33%;
 }
-.compare-row .mac13 {
-  min-height: 150px;
-  width: 250px;
-  background-color: #999999;
+
+.compare-row .macComp img {
+  margin-bottom: 30px;
 }
-.compare-row .mac16 {
-  min-height: 150px;
-  width: 250px;
-  background-color: red;
+
+.compare-row .macComp ul {
+  margin-left: 0;
+  margin-top: 50px;
 }
-/* .link-change {
-  min-width: 250px;
-  background-color: #000000;
-} */
+.compare-row li {
+  display: block;
+  margin-top: 16px;
+  margin-left: -40px;
+}
+
+.compare-row .macComp p {
+  font-weight: 600;
+}
+
+.compare-row .macComp .button {
+  margin: 20px 0 0 0;
+}
+
+.compare-row .macComp .more-text {
+  font-size: 14px;
+}
