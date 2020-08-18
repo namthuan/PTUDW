@@ -10,105 +10,7 @@ li {
     list-style-type: none;
 }
 
-/* NavApple */
-/* nav.header{
-
-    height: 44px;
-    width: 100%;
-    margin: 0 auto;
-    background: #323232;
-    font-weight:normal;
-    -webkit-text-size-adjust:100%;
-    -moz-text-size-adjust:100%;
-    -ms-text-size-adjust:100%;
-    text-size-adjust:100%;
-  }
-  
-  nav.header ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
-    margin: 0 auto;
-    list-style-type: none;
-  }
-  
-  nav.header a {
-    display: inline-block;
-    height: 44px;
-    line-height: 44px;
-    color: white;
-    font-size: 15px;
-    font-weight: lighter;
-    transition: 0.3s;
-  }
-  
-  nav.header a:hover {
-  color: #B8B8B8;
-  text-decoration: none;
-  }
-
-
-/* SectionMac */
-/*.sectionMac {
-  width: 100%;
-  height: 120px;
-  font-weight:normal;
-  -webkit-text-size-adjust:100%;
-  -moz-text-size-adjust:100%;
-  -ms-text-size-adjust:100%;
-  text-size-adjust:100%;
-}
-
- .sectionMac ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
- }
-
- .sectionMac ul li{
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
-  padding: 0px;
-  margin: 0 20px 0 20px;
-  margin-block-end: 3px;
-  margin-block-start: 0px;
- } 
-
-.sectionMac ul li a{
-   padding: 10px;
-   display: block;
-   /* background-color: brown; 
-   align-items: center;
- }
-
-.sectionMac ul li a span{
-   font-size: 12px;
-   color: #1d1d1f;
-   background-color: chartreuse;
-   
- }
-
-.sectionMac ul li a img {
-   background-color: coral;
- }
-
- .sectionMac ul li a:hover {
-   text-decoration: none;
- }
- 
- .sectionMac ul li a span:hover {
-   color: blue;
-   text-decoration: none;
- } */
-
- /* Banner */
-
- .icon_menu{
+.icon_menu{
   text-align: center;
 }
 
@@ -125,32 +27,96 @@ nav a.icon_menu_effect:hover {
   color: #0071e3;
 }
 
+#main{
+  display: grid;
+  grid-template-rows: 40px repeat(3,0.5fr) 1fr 0.2fr 1fr 0.2fr repeat(4,0.5fr);
+  /* grid-template-columns: 1fr 1fr; */
+}
 
-
- .banner{
-   width: 100%;
-   height: 40px;
-   background-color: #f2f2f2;
-   color: #333;
-   padding: auto;
-   margin-left: auto;
-   margin-right: auto;
-   display: flex;
-   justify-content: center;
-   font-size: 12;
-   line-height: 40px;
+.banner{
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 12;
+  line-height: 40px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
  }
 
  /* Info Mac */
  .macbook-13inch, .macbook-16inch, .macbook-air{
-    margin-top:  137px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
+  margin-top:  137px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  width: 100%;
  }
- 
+ .macbook-13inch{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+ }
+ .macbook-16inch{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+ }
+.macbook-air{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+.compare{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+.macOS h2{
+  grid-row-start: 6;
+  grid-row-end: 7;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+.macOS .info_macOS {
+  grid-row-start: 7;
+  grid-row-end: 8;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+
+.get-more h2 {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+.get-more .iTV{
+  grid-row-start: 9;
+  grid-row-end: 10;
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+}
+
+.box13{
+  background-color: #0356a8;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
  .macbook-13inch img {
-   float: right;
+   float: right
  }
  
 .macbook-16inch .text-mac {
@@ -322,14 +288,13 @@ h2 {
   background-position-x: center;
   background-position-y: bottom;
   height: 600px;
+  display: flex;
 }
 
 .macOS .info_macOS .bloctext {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
   color: #fff;
-  position: relative;
   top: 50%;
   text-align: center;
 }
@@ -351,3 +316,87 @@ h2 {
   color: #fff !important;
 }
 
+
+.get-more h2 {
+  padding-top: 114px;
+  margin-bottom: 60px;
+  font-size: 64px;
+  text-align: center;
+}
+.get-more{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 1440px;
+}
+.get-more .iTV {
+  display: flex;
+  background-color: #000;
+  margin-bottom: 20px;
+  height: 600px;
+}
+.get-more .picture{
+  flex-basis: 58.33333%;
+  max-width: 58.33333%;
+}
+.get-more .iTV .iTV-boxtext {
+  flex-basis: 41.66667%;
+  max-width: 41.66667%;
+  padding-left: 5%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.get-more .iTV .iTV-text p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.get-more .iTV .promo-image-tv {
+  width: 993px;
+  height: 600px;
+  background-size: 993px 600px;
+  background-repeat: no-repeat;
+  background-image: url(/Interface_Mac/images/background/apple_tv_plus.jpg);
+  margin-left: -150px;
+}
+.get-more .iCard {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.get-more .iCard{
+  background-image: url(/Interface_Mac/images/background/tile_apple_card.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.get-more .iCard .iCard-boxtext {
+  width: 100%;
+  padding: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 58.33%;
+  position: relative;
+  background-color: #0356a8;
+}
+
+.get-more .iCard .iCard-text p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #000;
+}
+.get-more .iArcade {
+  /* background-image: url(/Interface_Mac/images/background/apple_arcade_tile_narrow__elrr9qplo6i6_large.jpg);
+  background-repeat: no-repeat;
+  background-size:  contain;
+  position: absolute;
+  width: 100%;
+  height: 100%; */
+}
