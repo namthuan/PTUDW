@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -15,7 +16,6 @@ li {
 }
 
 nav a.icon_menu_effect:hover {
-  /* color: #a33535; */
   text-decoration: none;
 }
 
@@ -26,115 +26,33 @@ nav a.icon_menu_effect:hover {
 .icon_menu_p:hover {
   color: #0071e3;
 }
-
-/* #main{
-  display: grid;
-  grid-template-rows: 40px repeat(3,0.5fr) 1fr 0.2fr 1fr 0.2fr repeat(4,0.5fr);
-} */
-
-/* .banner{
-  width: 100%;
-  height: 40px;
-  background-color: #f2f2f2;
-  color: #333;
-  padding: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  font-size: 12;
-  line-height: 40px;
-  grid-row-start: 1;
-  grid-row-end: 2;
- } */
-
- /* Info Mac */
- /* .macbook-13inch, .macbook-16inch, .macbook-air{
-  margin-top:  137px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: auto;
-  width: 100%;
- } */
-
-.box13{
-  background-color: #0356a8;
-  margin-left: auto;
-  margin-right: auto;
-}
- .macbook-13inch img {
-   float: right
- }
- 
-.macbook-16inch .text-mac {
-  float: right;
-
-}
-.macbook-air img{
-  float: right;
-  width: 650px;
-  height: 200px;
-
-}
-.macbook-air .text-mac{
-  z-index: -1;
-}
-.text-mac {
-  display: flex;
-  flex-direction: column;
-  width: 33.33%;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-
-}
-
 .new {
   color: #f56300;
   font-weight: 600;
   font-size: 21px;
 }
-.text-mac .kind p {
-  font-size: 21px;
-  margin-bottom: 0;
-  margin-top: 5px;
-}
-.text-mac .kind h2{
-  font-size: 56px;
-  font-size: 600;
-}
-
 h2 {
   padding: 0;
   margin: 0;
   color: #1d1d1f;
 
 }
+
+
+ /* Info Mac */
+.info .jumbotron{
+  background-color: #fff !important;
+}
+ 
+.info .text-mac {
+  margin: 30px 0;
+}
+
 .descrip {
   font-size: 26px;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 10px;
-}
-
-.button {
-  display: inline-block;
-  text-align: center;
-  font-size: 17px;
-  font-weight: 400;
-  min-width: 28px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border-radius: 18px;
-  background: #0071e3;
-  color: #fff;
-}
-.button:hover{
-  text-decoration: none;
-  background: #0356a8;
-  color: #fff;
 }
 
 .more{
@@ -155,66 +73,31 @@ h2 {
  }
 
  /* Compare */
-.compare {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1440px;
+.compare .more-text{
+  font-size: 14px;
 }
-
-.boxmain {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  width: 1440px;
-  min-height: 800px;
-  background-color: #f2f2f2;
+.compare .button {
+  margin-top: 20px;
 }
-
-.boxmain h2 {
-  padding-top: 114px;
-  margin-bottom: 60px;
-  font-size: 64px;
-  text-align: center;
-}
-
-.compare-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  min-height: 100%;
-  padding-bottom: 20px;
-}
-.compare-row .macComp{
-  
-  max-width: 33,33%;
-}
-
-.compare-row .macComp img {
-  margin-bottom: 30px;
-}
-
-.compare-row .macComp ul {
+.compare ul {
+  margin-top: 56px;
   margin-left: 0;
-  margin-top: 50px;
-}
-.compare-row li {
-  display: block;
-  margin-top: 16px;
-  margin-left: -40px;
 }
 
-.compare-row .macComp p {
+.compare li{
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.compare .text-comp {
   font-weight: 600;
 }
 
-.compare-row .macComp .button {
-  margin: 20px 0 0 0;
+.compare h1 {
+  margin-bottom: 60px;
+  font-size: 64px;
 }
 
-.compare-row .macComp .more-text {
-  font-size: 14px;
-}
 
 .macOS {
   margin-left: auto;
