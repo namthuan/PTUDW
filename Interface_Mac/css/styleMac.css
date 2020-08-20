@@ -37,12 +37,12 @@ h2 {
   color: #1d1d1f;
 
 }
-
-
- /* Info Mac */
-.info .jumbotron{
+.jbWhite{
   background-color: #fff !important;
 }
+
+ /* Info Mac */
+
  
 .info .text-mac {
   margin: 30px 0;
@@ -114,11 +114,8 @@ h2 {
 .macOS .info_macOS {
   background-image: url(/Interface_Mac/images/background/catalina.jpg);
   background-repeat: no-repeat;
-  background-size: 2560px 600px;
+  background-size: cover;
   background-position-x: center;
-  background-position-y: bottom;
-  height: 600px;
-  display: flex;
 }
 
 .macOS .info_macOS .bloctext {
