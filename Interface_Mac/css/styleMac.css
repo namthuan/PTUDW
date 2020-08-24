@@ -41,7 +41,6 @@ h2 {
 .jbWhite{
   background-color: #fff !important;
 }
-
  /* Info Mac */
 
  
@@ -97,6 +96,13 @@ h2 {
 .compare h1 {
   margin-bottom: 60px;
   font-size: 64px;
+}
+.compare .img-comp{
+  padding-top: 26px;
+}
+
+.compare .jbcomp{
+  background-color: #f2f2f2;
 }
 
 /* Mac OS*/
