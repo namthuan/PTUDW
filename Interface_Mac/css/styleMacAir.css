@@ -1,0 +1,86 @@
+.body{
+    background-color: #f1f1f1;
+}
+.macAir{
+    color: #000;
+    border-bottom: solid 1px;
+}
+
+.title{
+    /* position: fixed; */
+}
+.title ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: solid 1px #000;
+}
+  
+.title li {
+    float: left;
+}
+  
+.title li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.info-macAir .info-macAir-head{
+    background-color: #fafafa;
+}
+
+.info-macAir .info-macAir-img{
+    background-image: url(/Interface_Mac/images/Mac/macbook_air_title.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+
+.info-macAir .info-text {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.info-macAir .info-text h1{
+    font-size: 60px;
+}
+
+.info-macAir .info-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+}
+.content{
+   border: solid 2px #d0d0d0;
+}
+
+.content .img-fisrt{
+    left: -20px;
+}
+ .content .carousel-item .text{
+     display: flex;
+     align-items: center;
+ }
+
+ .content .carousel-item p{
+    font-size: 50px;
+    font-weight: 600;
+ }
+ .content .carousel-item b{
+     color: #cfcfcf;
+ }
+
+ .content .carousel-indicators li{
+    background-color: #000;
+ }
