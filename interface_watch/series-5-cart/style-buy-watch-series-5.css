@@ -12,7 +12,7 @@
 
 .appleNav {
     grid-area: menuBar;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     justify-content: center;
 }
@@ -29,7 +29,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0;
     margin: 0 auto;
@@ -55,9 +55,12 @@ nav a:hover {
     grid-area: title;
     height: 40px;
     font-size: 22px;
-    padding-left: 300px;
-    border-bottom: lightgray solid;
     border-width: 1px;
+    margin-left: 25%;
+  }
+  
+  .wrap-title {
+    border-bottom: 1px lightgray solid;
 }
 
 .main-content {
@@ -74,9 +77,8 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 10px;
-    padding: 20px;
-    width: 224px;
+    margin: 0px;
+    padding: 0px;
     word-wrap: break-word;
     text-align: center;
     border: none;

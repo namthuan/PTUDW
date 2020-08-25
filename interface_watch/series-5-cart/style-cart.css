@@ -85,9 +85,7 @@ nav a:hover {
 
 .mySlides {
   display: none;
-  width: 550px;
-  height: 550px;
-  margin: auto;
+  padding: 10%;
 }
 
 .prev, .next {

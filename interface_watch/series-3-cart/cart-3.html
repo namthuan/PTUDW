@@ -37,9 +37,11 @@
                 </div>
             </nav>
             
-            <div class="title">
-                <p><b>Apple Watch Series 3</b></p>
-            </div>
+            <div class="wrap-title">
+                <div class="title">
+                    <p><b>Apple Watch Series 3</b></p>
+                </div>
+            </div>     
 
             <div class="main-content">
                 <div class="product-img">
@@ -71,7 +73,8 @@
 
                     <p style="font-size: x-large;">Case size</p>
                     <div class="case-size">
-                        <input type="radio" name="size" id="size1" class="size-button-input">
+                        <form action="" method="GET">
+                            <input type="radio" name="size" id="size1" class="size-button-input">
                         <label for="size1" class="size-button-label">
                             <div class="size-text">38mm
                             <div class="desc">Band fits 130-200mm wrists.</div>
@@ -86,21 +89,26 @@
                             </div>
                             <div class="price-text">From $229</div>
                         </label>
+                        </form>
+                        
                     </div><br>
                     
                     <p style="font-size: x-large;">Connectivity</p>
                     <div class="connectivity">
-                        <input type="radio" name="size" id="size3" class="size-button-input">
-                        <label for="size3" class="size-button-label">
-                            <div class="size-text">GPS</div>
-                            <div class="price-text">$199.00</div>
-                        </label>
-
-                        <input type="radio" name="size" id="size4" class="size-button-input">
-                        <label for="size4" class="size-button-label">
-                            <div class="size-text">GPS + Cellular</div>
-                            <div class="price-text">$299.00</div>
-                        </label>
+                        <form action="" method="GET">
+                            <input type="radio" name="size" id="size3" class="size-button-input">
+                            <label for="size3" class="size-button-label">
+                                <div class="size-text">GPS</div>
+                                <div class="price-text">$199.00</div>
+                            </label>
+    
+                            <input type="radio" name="size" id="size4" class="size-button-input">
+                            <label for="size4" class="size-button-label">
+                                <div class="size-text">GPS + Cellular</div>
+                                <div class="price-text">$299.00</div>
+                            </label>
+                        </form>
+                       
                     </div><br><br>
 
                     <input type="button" class="addToBag" value="Add to Bag">
