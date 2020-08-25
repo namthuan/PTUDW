@@ -10,7 +10,8 @@ body{
     grid-template-areas: 
     "menuBar"
     "title"
-    "main-content";
+    "main-content"
+    "footer";
 }
 
 .appleNav {
