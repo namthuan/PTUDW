@@ -213,15 +213,30 @@ ul li {
     background-size: contain;
     height: 300px;
 }
-.pricing-divider .buy-img-13{
-    background-image: url(/Interface_Mac/images/banner/macbook-pro13-buy.jfif);
+.pricing-divider .buy-img-pro13-gray{
+    background-image: url(/Interface_Mac/images/banner/mbp13touch-space-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
-.pricing-divider .buy-img-16{
-    background-image: url(/Interface_Mac/images/banner/macbook-pro16-buy.jfif);
+.pricing-divider .buy-img-pro13-silver{
+    background-image: url(/Interface_Mac/images/banner/mbp13touch-silver-select.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+
+.pricing-divider .buy-img-pro16-gray{
+    background-image: url(/Interface_Mac/images/banner/mbp16touch-space-select.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+.pricing-divider .buy-img-pro16-silver{
+    background-image: url(/Interface_Mac/images/banner/mbp16touch-silver-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
