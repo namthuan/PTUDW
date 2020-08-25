@@ -11,6 +11,47 @@ li {
     list-style-type: none;
 }
 
+.navItems {
+  grid-area: menuBar;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.appleNav nav {
+  height: 44px;
+  background: #323232;
+  font-weight:normal;
+  -webkit-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.appleNav nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.appleNav nav a {
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.appleNav nav a:hover {
+  color: #B8B8B8;
+}
+
 .icon_menu{
   text-align: center;
 }
