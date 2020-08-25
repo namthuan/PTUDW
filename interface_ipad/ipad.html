@@ -1,123 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>iPad</title>
 
-        <title>Ipad</title>
-
-        <!-- Boostrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-        <!--Icon-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <style>
             @import url(css/ipad.css);
         </style>
     </head>
     <body>
-        <div class="site-header mt-5">
-            <div class="container text-center">
-                <img src="images/ipad_header.png" alt="ipad_header">
-                <h1 class="site-header">Colorful entertainment</h1>
-                <h2 class="site-header">iPad</h2>
-                <button class="button"><a href="#">View all</a></button>
+        <!-- apple menu -->
+        <div class="apple-menu">
+            <div class="container-fluid">
+                <div class="appleNav">
+                    <nav> 
+                        <div class="navItems">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="images/apple-xxl.png" height="20"></a>
+                            </li>
+                            <li><a href="#">Mac</a></li>
+                            <li><a href="#">iPad</a></li>
+                            <li><a href="#">iPhone</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li>
+                                <a href="#"><img src="images/search-3-xxl.png" height="20"></a>
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
 
-        <div class="site-section">
-            <div class="container-fluid text-center">
-                <h2>Compare iPad models</h2>
-                <a class="non_button" href="#">Learn more &nbsp;<i class="fa fa-angle-right" style="font-size:20px"></i></a>
-                <div class="d-flex mb-4 ">
-                    <div class="item p-2 mr-3 flex-fill">
-                        <img src="images/ipad_pro.png" alt="ipad_pro">
-                        <p class="name_item">iPad Pro</p>
-                        <p> Starting at $799 </p>
-                        <button class="button"><a href="#">LEARN MORE</a></button>
-                    </div>
-                    <div class="item mr-3 p-2 flex-fill"><img src="images/ipad_air.png" alt="ipad_air">
-                        <p class="name_item">iPad Air</p>
-                        <p> Starting at $499 </p>
-                        <button class="button"><a href="#">LEARN MORE</a></button>
-                    </div>
-                    <div class="item mr-3 p-2 flex-fill"><img src="images/ipad.png" alt="ipad">
-                        <p class="name_item">iPad</p>
-                        <p> Starting at $329 </p>
-                        <button class="button"><a href="#">LEARN MORE</a></button>
-                    </div>
-                    <div class="item mr-3 p-2 flex-fill"><img src="images/ipad_mini.png" alt="ipad_mini">
-                        <p class="name_item">iPad Mini</p>
-                        <p> Starting at $399 </p>
-                        <button class="button"><a href="#">LEARN MORE</a></button>
-                    </div>
+        <!-- ipad menu -->
+        <div class="ipad-menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <a class="item-menu" href="#ipad-pro-section">
+                        <img class="img-fluid" src="images/ipad-pro-icon.png">
+                        <p class="text-center">iPad Pro</p>
+                    </a>
+                    <a class="item-menu" href="#ipad-air-section">
+                        <img class="img-fluid" src="images/ipad-air-icon.png">
+                        <p class="text-center">iPad Air</p>
+                    </a>
+                    <a class="item-menu" href="#ipad-section">
+                        <img class="img-fluid" src="images/ipad-icon.png">
+                        <p class="text-center">iPad</p>
+                    </a>
+                    <a class="item-menu" href="#ipad-mini-section">
+                        <img class="img-fluid" src="images/ipad-mini-icon.png">
+                        <p class="text-center">iPad Mini</p>
+                    </a>
                 </div>
-            </div>
-
-            <div class="ipad_section">
-                <div class="ipad_item row">
-                    <div class="col-md-7">
-                        <img src="images/ipad_pro_section.png" alt="ipad_pro_section" class="img-fluid">
-                    </div>
-                    <div class="content col-md-5">
-                        <h1>iPad Pro</h1>
-                        <p class="slogan">Your next computer is not a computer</p>
-                        <p class="price">From $799</p>
-                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a> <br>
-                        <a class="non_button" href="#">Learn more &nbsp;<i class="fa fa-angle-right" style="font-size:20px"></i></a>
-                    </div>
-                </div>
-
-                <div class="ipad_item ipad_bg row">
-                    <div class="content col-md-5">
-                        <h1>iPad Air</h1>
-                        <p class="slogan">Incredible power at an incredible value.</p>
-                        <p class="price">From $499</p>
-                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a> <br>
-                        <a class="non_button" href="#">Learn more &nbsp;<i class="fa fa-angle-right" style="font-size:20px"></i></a>
-                    </div>
-                    <div class="col-md-7">
-                        <img src="images/ipad_air_section.png" alt="ipad_pro_section" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="ipad_item row">
-                    <div class="col-md-7">
-                        <img src="images/ipad_section.png" alt="ipad_section" class="img-fluid">
-                    </div>
-                    <div class="content col-md-5">
-                        <h1>iPad</h1>
-                        <p class="slogan">Our most popular iPad.</p>
-                        <p class="price">From $329</p>
-                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a> <br>
-                        <a class="non_button" href="#">Learn more &nbsp;<i class="fa fa-angle-right" style="font-size:20px"></i></a>
-                    </div>
-                </div>
-
-                <div class="ipad_item ipad_bg row">
-                    <div class="content col-md-5">
-                        <h1>iPad Mini</h1>
-                        <p class="slogan">Small in size. Big on capability.</p>
-                        <p class="price">From $399</p>
-                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a> <br>
-                        <a class="non_button" href="#">Learn more &nbsp;<i class="fa fa-angle-right" style="font-size:20px"></i></a>
-                    </div>
-                    <div class="col-md-7">
-                        <img src="images/ipad_mini_section.png" alt="ipad_mini_section" class="img-fluid">
-                    </div>
-                </div>
-                
             </div>
         </div>
 
+        <!-- site main -->
+        <div class="site-main">
+            <div class="container-fluid">
+                <div class="row" id="ipad-pro-section">
+                    <div class="site-section">
+                        <div class="content">
+                            <p class="name-ipad">iPad Pro</p>
+                            <p class="disc">Your next computer is not a computer.</p>
+                            <p class="price">From $799</p>
+                            <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="ipad-air-section">
+                    <div class="site-section">
+                        <div class="content">
+                            <p class="name-ipad">iPad Air</p>
+                            <p class="disc">Incredible power at <br>an incredible value.</p>
+                            <p class="price">From $499</p>
+                            <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="ipad-section">
+                    <div class="site-section">
+                            <div class="row">
+                                <div class="col-md-4 content">
+                                    <p class="name-ipad">iPad</p>
+                                    <p class="disc">Our most popular iPad.</p>
+                                    <p class="price">From $329</p>
+                                    <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                                </div>
+                                <div class="col-md-8">
+                                    <img class="img-fluid" src="images/ipad.png">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row" id="ipad-mini-section">
+                    <div class="site-section">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img class="img-fluid" src="images/ipad-mini.png">
+                                </div>
+                                <div class="col-md-4 content">
+                                    <p class="name-ipad">iPad Mini</p>
+                                    <p class="disc">Small in size.<br>Big on capability.</p>
+                                    <p class="price">From $399</p>
+                                    <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="site-compare">
+            <div class="container-fluid">
+                <p class="compare-title">Compare iPad models</p>
+                <div class="row img-ipad">
+                    <div class="col-md-3">
+                        <img class="img-fluid img-ipad" src="images/ipad-pro-compare.jpg">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-ipad" src="images/ipad-air-compare.jpg">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-ipad" src="images/ipad-compare.jpg">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid img-ipad" src="images/ipad-mini-compare.jpg">
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="compare col-md-3">
+                        <p class="name-ipad-compare">iPad Pro</p>
+                        <p class="price-compare">From $799</p>
+                        <p>12.9” and 11”
+                        Liquid Retina display
+                        with ProMotion</p>
+                        <p>A12Z Bionic chip</p>
+                        <p>Pro cameras and LiDAR Scanner</p>
+                        <p>Face ID</p>
+                        <p>Up to 1TB storage</p>
+                        <p>Support for Apple Pencil
+                        (2nd generation)</p>
+                        <p>Support for Magic Keyboard and Smart Keyboard Folio</p>
+                    </div>
+                    <div class="compare col-md-3">
+                        <p class="name-ipad-compare">iPad Air</p>
+                        <p class="price-compare">From $499</p>
+                        <p>10.5” Retina display</p>
+                        <p>A12 Bionic chip</p>
+                        <p>Advanced cameras</p>
+                        <p>Touch ID</p>
+                        <p>Up to 256GB storage</p>
+                        <p>Support for Apple Pencil
+                        (1st generation)</p>
+                        <p>Support for Smart Keyboard</p>
+                    </div>
+                    <div class="compare col-md-3">
+                        <p class="name-ipad-compare">iPad</p>
+                        <p class="price-compare">From $329</p>
+                        <p>10.2” Retina display</p>
+                        <p>A10 Fusion chip</p>
+                        <p>Advanced cameras</p>
+                        <p>Touch ID</p>
+                        <p>Up to 128GB storage</p>
+                        <p>Support for Apple Pencil
+                        (1st generation)</p>
+                        <p>Support for Smart Keyboard</p>
+                    </div>
+                    <div class="compare col-md-3">
+                        <p class="name-ipad-compare">iPad Mini</p>
+                        <p class="price-compare">From $399</p>
+                        <p>7.9” Retina display</p>
+                        <p>A12 Bionic chip</p>
+                        <p>Advanced cameras</p>
+                        <p>Touch ID</p>
+                        <p>Up to 256GB storage</p>
+                        <p>Support for Apple Pencil
+                        (1st generation)</p>
+                    </div>
+                </div>
+                <div class="row buy">
+                    <div class="col-md-3">
+                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><button type="button" class="btn btn-primary btn-md">Buy</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- site footer-->
+        <div class="site-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        Copyright © 2020 Apple Inc. All rights reserved.
+                    </div>
+                    <div class="col-md-6 text-right">
+                        VietNam
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
