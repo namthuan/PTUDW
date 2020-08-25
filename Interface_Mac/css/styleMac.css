@@ -148,7 +148,7 @@ h2 {
 
 /* Mac OS*/
 .macOS .cover {
-  background-image: url(/Interface_Mac/images/background/catalina.jpg);
+  background-image: url(../images/background/catalina.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,14 +204,14 @@ h2 {
   align-items: center;
 }
 .iTV .iTV-img{
-  background-image: url(/Interface_Mac/images/background/apple_tv_plus.jpg);
+  background-image: url(../images/background/apple_tv_plus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
 }
 
 .iCard .cover{
-  background-image: url(/Interface_Mac/images/background/tile_apple_card.jpg);
+  background-image: url(../images/background/tile_apple_card.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,7 +234,7 @@ h2 {
   padding-top: 10px;
 }
 .arcade-new .arcade .cover{
-  background-image: url(/Interface_Mac/images/background/apple_arcade_tile_narrow__elrr9qplo6i6_large.jpg);
+  background-image: url(../images/background/apple_arcade_tile_narrow__elrr9qplo6i6_large.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +258,7 @@ h2 {
 }
 
 .arcade-new .new .cover{
-  background-image: url(/Interface_Mac/images/background/apple_news_plus.jpg);
+  background-image: url(../images/background/apple_news_plus.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,7 +283,7 @@ h2 {
 }
 
 .iGrift .iGrift-img{
-  background-image: url(/Interface_Mac/images/background/apple_gift_card.jpg);
+  background-image: url(../images/background/apple_gift_card.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;

@@ -50,7 +50,7 @@ b{
 }
 
 .info-macAir .info-macAir-img{
-    background-image: url(/Interface_Mac/images/Mac/macbook_air_title.png);
+    background-image: url(../images/Mac/macbook_air_title.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -82,7 +82,7 @@ b{
     margin-bottom: 50px;
 }
 .info-macPro13 .info-macPro13-img{
-    background-image: url(/Interface_Mac/images/Mac/macbook_pro_13_buy.jpg);
+    background-image: url(../images/Mac/macbook_pro_13_buy.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -112,7 +112,7 @@ b{
     margin-bottom: 50px;
 }
 .info-macPro16 .info-macPro16-img{
-    background-image: url(/Interface_Mac/images/banner/mac-pro-16.jpg);
+    background-image: url(../images/banner/mac-pro-16.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -193,35 +193,35 @@ ul li {
     position: relative;
 }
 .pricing-divider .buy-img-air-gray{
-    background-image: url(/Interface_Mac/images/banner/macbook-air-space-gray.jpg);
+    background-image: url(../images/banner/macbook-air-space-gray.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
 .pricing-divider .buy-img-air-gold{
-    background-image: url(/Interface_Mac/images/banner/macbook-air-gold.jfif);
+    background-image: url(../images/banner/macbook-air-gold.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
 .pricing-divider .buy-img-air-silver{
-    background-image: url(/Interface_Mac/images/banner/macbook-air-silver.jfif);
+    background-image: url(../images/banner/macbook-air-silver.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
 .pricing-divider .buy-img-pro13-gray{
-    background-image: url(/Interface_Mac/images/banner/mbp13touch-space-select.jfif);
+    background-image: url(../images/banner/mbp13touch-space-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
 .pricing-divider .buy-img-pro13-silver{
-    background-image: url(/Interface_Mac/images/banner/mbp13touch-silver-select.jfif);
+    background-image: url(../images/banner/mbp13touch-silver-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -229,14 +229,14 @@ ul li {
 }
 
 .pricing-divider .buy-img-pro16-gray{
-    background-image: url(/Interface_Mac/images/banner/mbp16touch-space-select.jfif);
+    background-image: url(../images/banner/mbp16touch-space-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
 }
 .pricing-divider .buy-img-pro16-silver{
-    background-image: url(/Interface_Mac/images/banner/mbp16touch-silver-select.jfif);
+    background-image: url(../images/banner/mbp16touch-silver-select.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
