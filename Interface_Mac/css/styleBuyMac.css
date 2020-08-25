@@ -192,8 +192,22 @@ ul li {
     padding: 1em 0 4em;
     position: relative;
 }
-.pricing-divider .buy-img-air{
+.pricing-divider .buy-img-air-gray{
     background-image: url(/Interface_Mac/images/banner/macbook-air-space-gray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+.pricing-divider .buy-img-air-gold{
+    background-image: url(/Interface_Mac/images/banner/macbook-air-gold.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+.pricing-divider .buy-img-air-silver{
+    background-image: url(/Interface_Mac/images/banner/macbook-air-silver.jfif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
