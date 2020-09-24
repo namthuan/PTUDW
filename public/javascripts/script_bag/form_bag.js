@@ -27,7 +27,6 @@ document.getElementById('submit').addEventListener('click', function(){
 
     }
 
-
     for (let i = 0; i < items.length; i++)
     {
       delete items[i]._id;
@@ -46,7 +45,7 @@ document.getElementById('submit').addEventListener('click', function(){
         phone : phone,
         email : email,
         address : address,
-        status : 'dang cho',
+        status : 'Waitting',
         total : total,
         product : items,
         }
@@ -67,6 +66,24 @@ document.getElementById('submit').addEventListener('click', function(){
     .catch((error) => {
       console.error('Error:', error);
     });
+
+    localStorage.removeItem('bag');
+    localStorage.removeItem('product');
+    localStorage.removeItem('number');
+
+    document.getElementsByClassName('container-fluid')[0].innerHTML = 
+    `
+    <div id="content-img" class="d-flex align-items-end d-flex justify-content-center">
+        <img id="icon-bag-empty" src="/images/img_bag/shopping-cart.webp">
+        <p>Your cart is empty</p>
+    </div><hr>
+    
+    <div id="content-button" class="d-flex align-items-start d-flex justify-content-center">
+        <a href="/"><button type="button" class="btn btn-outline-dark">Buy now</button></a>
+    </div>
+    `;
+    
+    //alert('Successfully!');
 
 })
 

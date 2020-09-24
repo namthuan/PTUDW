@@ -1,21 +1,21 @@
 var bill = require('../models/bill');
 
-const getDetail = (req, res) => {
-    //console.log(bill[3].name);
+// const getDetail = (req, res) => {
+//     //console.log(bill[3].name);
 
-    bill.find().then(function(list){
+//     bill.find().then(function(list){
     
-        if(list.length == 0)
-            throw new Error('Not found');
-        res.render('./admin/detail_product', { bill: list[3] });
+//         if(list.length == 0)
+//             throw new Error('Not found');
+//         res.render('./admin/detail_product', { bill: list[3] });
         
-    })
-    .catch(() => {
-        res.render('notfound')
-    })
+//     })
+//     .catch(() => {
+//         res.render('notfound')
+//     })
 
-    //res.render('./admin/index_admin', { bill: bill[3] });
-};
+//     //res.render('./admin/index_admin', { bill: bill[3] });
+// };
 
 const getDetailProduct = (req, res) => {
     //console.log(bill[3].name);
@@ -42,8 +42,7 @@ const changeProperty = async (req, res) => {
 
     // console.log(req.body);
 
-
-    if(req.body.status == 'canceled')
+    if(req.body.status == 'Canceled')
     {
         var _bill = await bill.deleteOne({_id:id}).then(function(response)
         {
@@ -53,12 +52,12 @@ const changeProperty = async (req, res) => {
     else
     {
         var _bill = await bill.findOneAndUpdate({_id:id}, req.body, {new:true})
-        console.log(_bill)
+        //console.log(_bill)
     }
 
      res.redirect('/admin');
 };
 
 module.exports = {
-    getDetail, getDetailProduct, changeProperty
+    getDetailProduct, changeProperty
 };

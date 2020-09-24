@@ -202,7 +202,7 @@ addToBag.addEventListener('click', function(){
 
         localStorage.setItem('bag', JSON.stringify(bag));
 
-        alert('thanh cong!');
+        alert('Successfully!');
 
         updateArrIfo();
 

@@ -7,6 +7,7 @@ const getAdmin = (req, res) => {
     
         if(list.length == 0)
             throw new Error('Not found');
+
         res.render('./admin/index_admin', { bill: list });
         
     })

@@ -17,10 +17,7 @@ function changeCorlor() {
         }
     }
   }
-  
   changeCorlor();
-  
-  
   
   function selectItem() {
     var card = document.querySelectorAll(".card");
